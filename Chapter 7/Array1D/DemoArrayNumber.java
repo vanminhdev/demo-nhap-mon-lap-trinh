@@ -1,4 +1,5 @@
 import java.util.Random;
+import java.util.Scanner;
 
 public class DemoArrayNumber {
     public static void main(String[] args) {
@@ -13,11 +14,11 @@ public class DemoArrayNumber {
         }
 
         // numbers[0] = 10; //gán giá trị cho phần tử trong mảng theo chỉ số
-        for (int i = 0; i < SIZE; i++) {
+        for (int i = 0; i < numbers.length; i++) {
             System.out.printf("%4d", numbers[i]);
         }
 
-        //cách lặp thứ 2
+        //cách lặp thứ 2 không quan tâm đến index
         for (int num : numbers) {
             System.out.printf("%4d", num);
         }
