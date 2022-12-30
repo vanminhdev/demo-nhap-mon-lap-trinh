@@ -29,14 +29,14 @@ public class BinarySearchDemo
          // Search for the value
          result = binarySearch(numbers, searchValue);
 
-        // Display the results.
-        if (result == -1)
-           System.out.println(searchValue + " was not found.");
-        else
-        {
-           System.out.println(searchValue + " was found at " +
-                              "element " + result);
-        }
+         // Display the results.
+         if (result == -1)
+            System.out.println(searchValue + " was not found.");
+         else
+         {
+            System.out.println(searchValue + " was found at " +
+                                 "element " + result);
+         }
 
 		  // Consume the remaining newline.
 		  keyboard.nextLine();
@@ -56,7 +56,6 @@ public class BinarySearchDemo
       @param array The array to search.
       @param value The value to search for.
    */
-
    public static int binarySearch(int[] array, int value)
    {
       int first;       // First array element
@@ -76,7 +75,7 @@ public class BinarySearchDemo
       {
          // Calculate midpoint
          middle = (first + last) / 2;
-         
+
          // If value is found at midpoint...
          if (array[middle] == value)
          {

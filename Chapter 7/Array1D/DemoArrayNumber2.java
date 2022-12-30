@@ -1,7 +1,7 @@
 import java.util.Random;
 import java.util.Scanner;
 
-public class DemoArray2 {
+public class DemoArrayNumber2 {
     public static void main(String[] args) {
         int numOfArray;
         Scanner keyboard = new Scanner(System.in);
